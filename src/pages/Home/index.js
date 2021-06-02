@@ -3,6 +3,7 @@ import { View, Text } from 'react-native'
 
 import { LinearGradient } from 'expo-linear-gradient';
 import StatusBarPage from '../../components/StatusBarPage';
+import  Menu from '../../components/Menu';
 
 
 export default function Home(){
@@ -15,8 +16,9 @@ export default function Home(){
           <StatusBarPage
           barStyle="ligh-content"
           backgroundColor="#1ddbb9"
-
           />        
+
+          <Menu/>
 
           <Text>Pagina Home</Text>          
         </LinearGradient>
