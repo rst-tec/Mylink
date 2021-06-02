@@ -1,10 +1,10 @@
 import React from "react"
 import { View, Text } from 'react-native'
 
-export default function Home(){
+export default function MyLinks(){
     return(
         <View>
-          <Text>MyLinks</Text>          
+          <Text>Pagina Links</Text>          
         </View>
       )
 }
